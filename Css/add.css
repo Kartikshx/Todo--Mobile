@@ -1,0 +1,130 @@
+.container{
+    position: relative;
+    filter: blur(10px);
+    z-index: 1;
+}
+header {
+  margin:auto ;
+  display:flex;
+  width:70%;
+  justify-content: space-between;
+  align-items: center;
+  
+  
+}
+
+h1{
+font-weight: 600;
+font-family: Tahoma, sans-serif;
+font-size: 60px;
+}
+
+span{
+  font-weight: 100;
+  color: rgb(104, 104, 104);
+}
+
+
+
+.add-button{
+  display: inline-flex;
+  margin-top:30px;
+  margin-left: 50px;
+  font-size: 24px;
+  color: rgb(104, 104, 104);
+  
+} 
+.cards-container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+
+.cards{
+  font-family: Tahoma , sans-serif;
+  width: 300px;
+  height: 400px;
+  text-align:center;
+  justify-content: space-between;
+  align-content: space-between;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border: solid 1px rgb(255, 123, 0);
+  border-radius:10px;
+  box-shadow: 2px 4px 15px lightslategray;
+}
+
+.list-name{
+color: rgb(255, 123, 0);
+
+}
+
+.hrzz{
+ color: rgb(78, 78, 78);
+ margin-left: 20%;
+}
+
+.complete-task{
+  color: red;
+text-decoration: line-through;
+}
+
+
+.chk-box{
+  margin-left:-30px;
+  
+}  
+
+.top-container{
+  border: 2px solid rgb(255, 123, 0);
+  width: 380px;
+  height: 200px;
+  margin-left: -200px;
+  margin-top: -100px;;
+  text-align: center;
+
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgb(93, 93, 93);
+  background-color:white;  
+  
+  
+}
+
+.add-new{
+    margin-top:5px;
+    margin-bottom: 15px;
+    color: rgb(255, 123, 0);
+    font-family: Tahoma, sans-serif
+}
+
+.zz{
+    width: 270px;
+  height: 35px;
+  border: 1px solid rgb(255, 123, 0);
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px lightgray;
+}
+
+.add-btn{
+    color: white;
+  background-color: rgb(255, 123, 0);
+  margin-top: 5px;
+  border: 1px solid rgb(255, 123, 0);
+  width: 75px;
+  height: 32px;
+  border-radius: 50px;
+  margin-bottom: 5px;
+}
+
+
+.blur-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+  }

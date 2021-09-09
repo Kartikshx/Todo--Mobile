@@ -1,0 +1,62 @@
+
+
+h1 { 
+    font-size: 48px;
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+  }
+
+
+.arrow-icon{
+   display:flex;
+   font-size: 26px;
+   color: black;
+   margin-left: 45%;
+   color: gray;
+   font-family: sans-serif;
+   flex-wrap: wrap;
+}  
+.container{
+    display: flex;
+    margin-left:10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.cards{
+    border: 2px solid rgb(255, 123, 0);
+    width: 300px;
+    text-align: center;
+    height: 350px;
+    margin-top: 50px;
+    border-radius: 8px;
+    box-shadow: 4px 6px 15px grey;
+    font-family: Tahoma, sans-serif;
+}
+
+.CC-heading{
+    color: rgb(255, 123, 0);
+    font-family: Tahoma, sans-serif;
+    letter-spacing: 0.8px;
+    font-size: 20px;
+}
+
+.hrzz{
+    margin-left: 20%;
+    border-top: 2px solid grey;
+}
+
+.complete-task{
+   color: red;
+   text-decoration: line-through;
+   font-family: Tahoma, sans-serif;
+}
+
+.pending-task{
+    margin-right: 100px;
+    font-family: Tahoma, sans-serif;
+
+}
+.add-icon{
+    margin-top: 170px;
+    margin-left: 250px;
+}
